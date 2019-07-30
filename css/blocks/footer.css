@@ -1,0 +1,27 @@
+.footer {
+  padding-top: 10px;
+  padding-bottom: 11px;
+  background-color: #4b73b5;  
+  position: relative;
+}
+.footer__container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__columns--left {
+  width: 270px;
+  color: #fff;  
+  font-size: 14px;
+}
+.footer__link {
+  font-weight: bold;
+  color: #fff;
+}
+.footer__columns--right {
+  justify-content: flex-start;
+  display: flex;
+  flex: 1;  
+  font-style: normal;   
+}

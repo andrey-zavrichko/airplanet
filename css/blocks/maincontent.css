@@ -1,0 +1,40 @@
+.sidebar, .page{
+  vertical-align: top;
+  margin-top: 20px;
+}
+.maincontent {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.container {
+  width: 1160px;  
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}
+.maincontent__container {  
+  justify-content: space-between;
+}
+.sidebar {
+  width: 25%;
+  margin-top: 30px;
+  margin-right: 4px;
+}
+.page {
+  width: 75%;
+  padding-left: 9px;
+}
+.banner {
+    display: block;
+    height: 300px;
+    width: 2000px;
+    position: relative;
+}
+.banner-pic {
+  display: block;
+  max-width: 100%; 
+  background: url('../../img/plane.png') 0 center no-repeat/contain;
+  height: 300px;
+  width: 2000px;
+  position: absolute; 
+}

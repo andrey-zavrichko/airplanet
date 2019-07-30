@@ -1,0 +1,89 @@
+.menu__list {
+  padding-left: inherit;
+  display: inline-flex;
+}
+.menu__item {
+  margin: 0 90px 15px 0;
+  list-style: none;  
+  
+}
+.menu__text {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4b73b5;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.menu__text:before {
+  content: "";
+  display: block;
+  vertical-align: middle;
+  width: 24px;
+  height: 18px;
+  background: no-repeat center center;
+  margin-right: 20px;
+}
+.menu__text:hover {
+  color: #000;
+}
+.menu__text--icon--main:before {
+  background-image: url('../../img/spritesheet.png');
+  background-repeat: no-repeat;  
+  width: 17px;
+  height: 18px;
+  background-position: -65px -5px;
+}  
+.menu__text--icon--main:hover:before {
+  background-image: url('../../img/spritesheet.png');
+  background-repeat: no-repeat;  
+  width: 17px;
+  height: 18px;
+  background-position: -92px -5px;
+}  
+.menu__text--icon--feed:before {
+  background-image: url('../../img/spritesheet.png');
+  background-repeat: no-repeat;  
+  width: 20px;
+  height: 18px;
+  background-position: -5px -5px;
+} 
+.menu__text--icon--feed:hover:before {
+  background-image: url('../../img/spritesheet.png');
+  background-repeat: no-repeat;  
+  width: 20px;
+  height: 18px;
+  background-position: -35px -5px;
+}  
+.menu__text--icon--team:before {
+  background-image: url('../../img/spritesheet.png');
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 18px;
+  background-position: -119px -5px;
+}  
+.menu__text--icon--team:hover:before {
+  background-image: url('../../img/spritesheet.png');
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 18px;
+  background-position: -152px -5px;
+} 
+.menu__link:active {
+  filter: brightness(0);
+}
+.nav__link--active {
+  filter: brightness(0);
+  color: #000;  
+}
+.menu--horizontal {
+  display: flex;
+}
+.menu__item {
+  margin-right: 92px;
+}
+.menu__item:last-child {
+  margin-right: 0px;
+}
